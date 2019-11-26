@@ -1,0 +1,53 @@
+.greenClass
+{
+    border: 1px solid green;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    width: 300px !important;
+}
+
+table.dataTable thead tr {
+    background-color: #5b79e0;
+    color: white !important;
+    font-weight: bold;
+}
+table.dataTable thead tr th {
+    color: #FFF !important;
+    text-align: center;
+}
+#dashboard_dataTable_wrapper > .dataTables_length
+{
+    float: right !important;
+}
+#dashboard_dataTable_wrapper > .dataTables_filter
+{
+    float: left !important;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+select
+{
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + 0.9375rem + 2px);
+    padding: 0.46875rem 1.625rem 0.46875rem 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #596882;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #c0ccda;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
